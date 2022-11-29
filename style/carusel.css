@@ -1,0 +1,24 @@
+.bx-wrapper{
+    border: none;
+    box-shadow: none;
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a {
+    background:rgba(49, 66, 198, 0.3);
+    text-indent: -9999px;
+    display: block;
+    width: 20px;
+    height: 5px;
+    margin: 0 5px;
+    outline: 0;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+
+.bx-wrapper .bx-pager.bx-default-pager a:hover, 
+.bx-wrapper .bx-pager.bx-default-pager a.active, 
+.bx-wrapper .bx-pager.bx-default-pager a:focus {
+    background:rgba(49, 66, 198, 1);
+}
